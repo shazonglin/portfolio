@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
 
 function Footer() {
-    return (
-        <div>Footer</div>
-    )
+  return (
+    <div className='py-5 text-center'>
+      <p className='text-sm mt-2 opacity-50'>
+        &copy;{new Date().getFullYear()} Zonglin Sha. All rights reserved.
+      </p>
+    </div>
+  );
 }
 
-export default Footer 
+export default Footer;
