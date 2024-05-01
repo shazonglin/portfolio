@@ -26,8 +26,8 @@ function Contact() {
           <textarea
             name='message'
             placeholder='Message here!'
-            rows='10'
-            className='p-2 mb-4 border-2 rounded-md focus:outline-none'
+            rows='8'
+            className='p-2 mb-4 border-2 rounded-md focus:outline-none dark:bg-stone-900 '
           />
           <div className='flex justify-between'>
             <button

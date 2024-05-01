@@ -5,7 +5,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
     window.open(link, '_blank');
   };
   return (
-    <div className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
+    <div className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden transition-transform duration-300 transform hover:scale-105'>
       <img
         src={imgUrl}
         alt='project'
