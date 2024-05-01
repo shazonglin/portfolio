@@ -1,5 +1,7 @@
 import React from 'react';
 import Title from './Title';
+import { GrLinkedin } from 'react-icons/gr';
+import { FaGithub } from 'react-icons/fa6';
 function Contact() {
   return (
     <div className='flex flex-col mb-10 mx-auto'>
@@ -27,11 +29,23 @@ function Contact() {
             rows='10'
             className='p-2 mb-4 border-2 rounded-md focus:outline-none'
           />
-          <button
-            type='submit'
-            className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-700 to-blue-500 drop-shadow-md '>
-            Work With Me!
-          </button>
+          <div className='flex justify-between'>
+            <button
+              type='submit'
+              className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-700 to-blue-500 drop-shadow-md '>
+              Work With Me!
+            </button>
+            <div className='flex flex-row gap-2'>
+              <a
+                href='https://www.linkedin.com/in/zonglinsha'
+                className='text-3xl'>
+                <GrLinkedin />
+              </a>
+              <a href='https://github.com/shazonglin' className='text-3xl'>
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </form>
       </div>
     </div>

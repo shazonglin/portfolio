@@ -7,12 +7,16 @@ function TimelineItem({ title, duration, details }) {
         {/* circle */}
         <div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white' />
         <div className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
-          <span className='inline-block px-2 py-1 font-semibold text-white bg-stone-900 rounded-md'>
+          <span className='inline-block px-2 py-1 font-semibold text-white bg-stone-900 dark:bg-stone-100 dark:text-stone-900 rounded-md'>
             {duration}
           </span>
-          <h3 className='text-lg font-semibold text-stone-900'>{title}</h3>
+          <h3 className='text-lg font-semibold text-stone-900 dark:text-white'>
+            {title}
+          </h3>
         </div>
-        <p className='my-2 text-base font-normal text-stone-500 '>{details}</p>
+        <p className='my-2 text-base font-normal text-stone-700 dark:text-stone-500 '>
+          {details}
+        </p>
       </li>
     </ol>
   );

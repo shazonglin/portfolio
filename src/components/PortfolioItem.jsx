@@ -5,7 +5,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
     window.open(link, '_blank');
   };
   return (
-    <div className='border-2 border-stone-900 rounded-md overflow-hidden'>
+    <div className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
       <img
         src={imgUrl}
         alt='project'
@@ -20,7 +20,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
           {stack.map((item, index) => (
             <span
               key={index}
-              className='inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md'>
+              className='inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-neutral-200 rounded-md'>
               {item}
             </span>
           ))}
