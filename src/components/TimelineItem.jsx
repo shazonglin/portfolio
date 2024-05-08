@@ -14,9 +14,14 @@ function TimelineItem({ title, duration, details }) {
             {title}
           </h3>
         </div>
-        <p className='my-2 text-base font-normal text-stone-700 dark:text-stone-500 '>
-          {details}
-        </p>
+        {details.map((detail, index) => (
+          <p
+            key={index}
+            className='my-2 text-base font-normal text-stone-700 dark:text-stone-500 '>
+            <span className='font-bold'>{index + 1}. </span>
+            <span>{detail}</span>
+          </p>
+        ))}
       </li>
     </ol>
   );

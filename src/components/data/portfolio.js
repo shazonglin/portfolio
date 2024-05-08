@@ -12,10 +12,10 @@ export default [
   //   stack: ['React', 'Material UI', 'Javascript'],
   //   link: 'https://www.google.com',
   // },
-  // {
-  //   title: 'Re-create Nike website',
-  //   imgUrl: '/assets/ai-nerf-gun.jpg',
-  //   stack: ['React', 'Material UI', 'Javascript'],
-  //   link: 'https://www.google.com',
-  // },
+  {
+    title: 'Sneaker Econ full-stack website ',
+    imgUrl: '/assets/econ-website.jpg',
+    stack: ['Vue', 'Node.js', 'Express','Firebase'],
+    link: 'https://econ-website-full-stack.onrender.com',
+  },
 ];
