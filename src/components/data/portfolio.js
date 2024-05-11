@@ -6,16 +6,16 @@ export default [
     stack: ['React', 'Tailwind', 'Vite'],
     link: 'https://www.shazonglin.info',
   },
-  // {
-  //   title: 'Admin Dashboard',
-  //   imgUrl: '/assets/terminal-website.jpg',
-  //   stack: ['React', 'Material UI', 'Javascript'],
-  //   link: 'https://www.google.com',
-  // },
+  {
+    title: 'Terminal Adventure Game',
+    imgUrl: '/assets/terminal-game.png',
+    stack: ['Javascript', 'OOP'],
+    link: 'https://github.com/shazonglin/terminal-game',
+  },
   {
     title: 'Sneaker Econ full-stack website ',
     imgUrl: '/assets/econ-website.jpg',
-    stack: ['Vue', 'Node.js', 'Express','Firebase'],
+    stack: ['Vue', 'Node.js', 'Express', 'Firebase'],
     link: 'https://econ-website-full-stack.onrender.com',
   },
 ];

@@ -3,7 +3,7 @@ export default [
     title: 'Freelance Software Engineer',
     duration: '04/2024 - Present',
     details: [
-      'Constantly learning new technology and building my foundation of knowledge in computer science.',
+      'Continually learning cutting-edge technology while reinforcing fundamental computer science knowledge.',
       'Help clients build project/website.',
     ],
   },
@@ -18,10 +18,10 @@ export default [
     ],
   },
   {
-    title: 'Project Manager Assistant',
+    title: 'Product Manager Assistant',
     duration: '03/2022 - 08/2022',
     details: [
-      'Developed prototype page with features for industrial/process companies using Mastermind which is similar software as Axure.',
+      'Developed prototype page with features for industrial/process companies using MasterGo which is similar software as Axure.',
       'Provided documents with detailed UML diagrams and logic.',
       'Work collaboratively with a team of back-end and front-end developers, system architects, and project managers.',
     ],

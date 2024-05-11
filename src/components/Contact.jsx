@@ -32,7 +32,7 @@ function Contact() {
           <div className='flex justify-between'>
             <button
               type='submit'
-              className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-700 to-blue-500 drop-shadow-md '>
+              className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-700 to-blue-500 drop-shadow-md'>
               Work With Me!
             </button>
             <div className='flex flex-row gap-2'>
