@@ -1,10 +1,10 @@
 export default [
   {
-    title: 'Freelance Software Engineer',
-    duration: '04/2024 - Present',
+    title: 'Full Stack Developer',
+    duration: '06/2024 - Present',
     details: [
-      'Continually learning cutting-edge technology while reinforcing fundamental computer science knowledge.',
-      'Help clients build project/website.',
+      'Working as a full stack developer to help dental manufacturing companies developer ERP system with React and Java with MySql stack',
+      'Also start doing python to implement fusion 360 api script to automate manufactring process.',
     ],
   },
   {
@@ -34,4 +34,4 @@ export default [
       'Learned about computer architecture, computer science theory, data structure, design pattern etc.',
     ],
   },
-];
+]
